@@ -1,0 +1,447 @@
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-one{
+    margin: 30px 180px 0 180px;
+}
+
+.nav-one .word{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: -60px;
+}
+
+.nav-one .word ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.nav-one .word ul a{
+    list-style: none;
+    color: #090400;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.word .home-nav{
+    background-color: #ed1c24;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+/* -----------------------------------QUALITY--------------------------------- */
+.quality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 140px 0 140px;
+}
+.small-two-photo{
+    margin-top: 210px;
+    margin-right: 20px;
+}
+.small-two-photo img{
+    width: 3vh;
+    
+}
+.words{
+    margin-top: -90px;
+}
+.words h2{
+    color: #090400;
+    font-size: 45px;
+    font-weight: 300;
+}
+.words .red-word{
+    color: #fa3e19;
+    font-weight: 700;
+    font-size: 66.667px;
+    margin-bottom: 20px;
+}
+.words p{
+    color: #090400;
+    font-weight: 500;
+}
+.big-photo{
+    margin-right: 80px;
+    margin-top: 60px;
+}
+.big-photo img{
+    width: 70vh;
+}
+.input-quality{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-quality input{
+    border: none;
+    padding: 13px 25px 13px 25px;
+    background-color: #fa3e19;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.input-quality input:hover{
+    color: #090400;
+    transition: 0.2s;
+}
+/* -------------------------------------ABOUT------------------------------- */
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 140px 0 140px;
+}
+
+.about .photo img{
+    width: 65vh;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+.totel-words{
+    margin-right: 100px;
+}
+.totel-words strong{
+    color: #fa3e19;
+    font-size: 60px;
+    font-weight: bold;
+    border-bottom: 2.3px #383737 solid;
+    padding-bottom: 5px;
+    margin-bottom: 300px;
+    
+}
+
+.totel-words strong span{
+    color: #090400;
+}
+.totel-words p{
+    color: #686666;
+    font-size: 14pt;
+    white-space: 10px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.totel-words .input-quality {
+    float: left;
+}
+
+/* -------------------------------DenProducts---------------------------------- */
+
+.DenProducts {
+    margin-left: 100px;
+   margin-right: 70px;
+   margin-top: 130px;
+}
+
+.DenProducts strong{
+    font-size: 67px;
+    color: #383737;
+    margin-left: 130px;
+}
+.DenProducts strong span{
+    border-bottom: 2px #090004 solid;
+    padding-bottom: 5px;
+}
+
+.DenProducts strong .color-span{
+    color: #fa3e19;
+}
+.all-box{
+    margin-top: 50px;
+   
+}
+.all-box .line-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-box .line-box .box{
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
+
+.all-box .line-box .box .photo img{
+    border: 20px solid #e7e4e3;
+    width: 45vh;
+    transition: 0.4s;
+}
+
+.all-box .line-box .box .photo img:hover{
+    border: 20px solid #fa3e19;
+    transition: 0.4s;
+}
+
+.all-box .line-box .box p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fa3e19;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.all-box .line-box .box p:hover{
+    color: #090400;
+    transition: 0.4s;
+}
+
+/* -------------------------------------------------------------Our Gallery---------------------------------------- */
+.Our-Gallery{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.Our-Gallery strong{
+    color: #383737;
+    text-align: center;
+   margin-left: -10px;
+    
+}
+
+.Our-Gallery strong span{
+    border-bottom: 3px #383737 solid;
+    color:#fa3e19 ;
+    
+}
+
+.Our-Gallery .four-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Our-Gallery .four-photo img{
+    width: 52vh;
+    margin-top: 20px;
+}
+
+/* ---------------------------------------------Get inTouch-------------------------------------------- */
+
+.Get-inTouch{
+    margin-top: 100px;
+    
+}
+
+.Get-inTouch .stro{
+    margin-left:300px;
+    color: #383737;
+    margin-bottom: 80px;
+}
+
+
+.Get-inTouch strong span{
+    border-bottom: 3px #383737 solid;
+    color:#fa3e19 ;
+    
+}
+
+.Get-inTouch .input-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Get-inTouch .input-photo .inputs{
+    display: flex;
+    flex-direction: column;
+    background-color: #fa3e19;
+    margin-right: 60px;
+    padding-bottom: 30px;
+}
+
+.Get-inTouch .input-photo .inputs .three-input{
+          height: 55px;
+          width: 470px;
+          padding-left: 13px;
+          border: #fa3e19 4px solid ;
+          margin:30px 30px 0 30px;
+          font-size: 15px;
+          margin-bottom: -8px;
+         
+}
+
+.Get-inTouch .input-photo .inputs .four-input{
+    height: 140px;
+    width: 470px;
+    padding-left: 13px;
+    padding-bottom: 60px;
+    border: #fa3e19 4px solid ;
+    margin:30px 30px 30px 30px;
+    font-size: 15px;
+    margin-bottom: -8px;
+   
+}
+.Get-inTouch .input-photo .inputs input{
+    outline: none;
+    
+}
+
+ .send-input input{
+    margin-top: 40px;
+    background-color: #383737;
+    border: none;
+    padding: 12px 42px 12px 42px;
+    color: #e7e4e3;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 300px;
+
+}
+
+.send-input input:hover{
+    color: #fa3e19;
+    transition: 0.3s;
+}
+
+.Get-inTouch .input-photo img{
+     width: 73vh;
+     margin-right: -30px;
+}
+
+/* ----------------------------------------------------Contact Us------------------------------------------------- */
+
+.floter{
+    width: 100%;
+    float: left;
+    background-color: #393838;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin-top: 300px;
+   
+}
+.contact strong{
+    font-size: 50px;
+    color: #e7e4e3;
+    border-bottom: 7.5px #e7e4e3 solid;
+    padding-bottom: 3px;
+}
+
+.item-floter{
+    display: flex;
+    align-items: center;
+}
+.line-one{
+    margin-top: 65px;
+    margin-left: 130px;
+}
+.line-one .titel h4{
+    color: #e7e4e3;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.line-one-item .line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.line-one-item .line p{
+    margin-left: 15px;
+    color: #e7e4e3;
+}
+
+.line-two{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.line-two .titel h4{
+    color: #e7e4e3;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.line-one-item .p-line-two{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.line-one-item .p-line-two p{
+    margin-left: 20px;
+    color: #e7e4e3;
+}
+
+.line-three{
+    margin-left: 75px;
+    margin-top:60px;
+}
+
+.line-three .titel h4{
+    color: #e7e4e3;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+
+.line-three-item .p-line-three{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.line-three-item .p-line-three p{
+    margin-left: 20px;
+    color: #e7e4e3;
+}
+
+.ican-three{
+    margin-top: 30px;
+}
+
+.ican-three img{
+    margin-left: 10px;
+}
+
+
+.line-four{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.line-four .titel h4{
+    color: #e7e4e3;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+
+.line-four-item .four-photos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.line-four-item .four-photos img{
+    width: 13vh;
+    margin-right: 30px;
+}
